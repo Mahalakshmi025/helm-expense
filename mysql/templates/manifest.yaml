@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: pmahalakshmi25/mysql: {{ .Values.deployment.imageVersion}}
+        image: pmahalakshmi25/mysql:{{ .Values.deployment.imageVersion }}
         
           
 
